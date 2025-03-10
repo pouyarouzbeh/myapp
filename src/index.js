@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -11,7 +14,24 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// جدا کردن منطق و داده‌ها: والد، مسئول مدیریت داده‌هاست؛ فرزند صرفاً رندرکننده‌ی UI است.
+
 reportWebVitals();
+
+
+
+
+
+
+// function Welcome({ name }) {
+//   return <h2>سلام، {name} عزیز!</h2>;
+// }
+
+// function App() {
+//   return (
+//     <div>
+//       <Welcome name="علی" />
+//       <Welcome name="نازنین" />
+//     </div>
+//   );
+// }
