@@ -3,6 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import pic1 from "./img2.jpg";
+
+// function Welcome({name , age}) {
+//   return(
+//     <>
+//     <h2>سلام {name}</h2>
+//     <h3>دارای سن {age}</h3>
+//     </>
+//   )
+// }
+
+// function HelloWorld() {
+//   return (
+//     <div>
+//       <Welcome name="علی" age="17" />
+//       <Welcome name="نازنین" age="14" />
+//     </div>
+//   );
+// }
+
 
 
 
@@ -23,15 +43,4 @@ reportWebVitals();
 
 
 
-// function Welcome({ name }) {
-//   return <h2>سلام، {name} عزیز!</h2>;
-// }
 
-// function App() {
-//   return (
-//     <div>
-//       <Welcome name="علی" />
-//       <Welcome name="نازنین" />
-//     </div>
-//   );
-// }
