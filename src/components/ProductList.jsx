@@ -13,8 +13,7 @@ function ProductList({ items }) {
           description={product.description}
           productStyle={product.productStyle}
         />
-      ))}
-      
+      ))}      
     </div>
   );
 }
